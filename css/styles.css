@@ -133,6 +133,8 @@ button {
   margin-right: 2px;
   color: transparent;
   background: var(--color-neutral-light);
+  opacity: 0;
+  transition: opacity .5s;
 }
 
 .space {
@@ -149,11 +151,11 @@ button {
 /* Keyboard */
 
 .chosen {
-  background: #3a3f58;
+  background: var(--color-win);
 }
 
 .wrong {
-  background: #f7a964;
+  background: var(--color-lose);
   animation: shake .5s;
 }
 
