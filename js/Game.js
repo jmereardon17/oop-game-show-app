@@ -13,10 +13,6 @@ class Game {
   }
 
   startGame = () => {
-    // check if the there is already a phrase, reset the game
-    if (this.activePhrase) this.resetGame();
-
-    // start the game
     startScreen.style.display = 'none';
     this.activePhrase = this.getRandomPhrase();
     this.activePhrase.addPhraseToDisplay();
