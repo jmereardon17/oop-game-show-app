@@ -16,4 +16,4 @@ I also went for the Exceeds Expectations Grading where I had to:
 - Add keyboard functionality - Let players use their physical computer keyboard to enter guesses, by using the keydown event.
 - Making the project my own - Add animation styles for letters shown and incorrect keys, color indication for incorrect and correct keys, fade in for phrase, updating the start button text to show "Play Again" after the first game.
 
-Grade: TBC
+Grade: Exceeds Expectations
